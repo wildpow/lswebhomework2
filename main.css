@@ -1,8 +1,23 @@
 header {
   background: url(post-bg.jpg);
   background-size: cover;
-  padding: 10px;
+  padding: 20px;
+
 }
+
+h1 {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 61px;
+}
+h2 {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  line-height: 40px;
+  font-size: 36px;
+}
+
 body {
   color: white;
 
@@ -16,19 +31,51 @@ li {
   font-weight: 700;
 }
 
-head {
-  font-family: 'Open Sans';
+#head {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
 #posted {
   font-family: 'One Sans';
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 22px;
+  font-style: italic;
 }
 
 #left {
-  font-family: Lora;
-  padding: 5px 0 0 40px;
+  line-height: 20px;
+  font-size: 18px;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.8);
+  padding-top: 5px;
+}
+
+#last-text {
+  padding-top: 15px;
 }
 
 main {
   color: black;
+}
+
+figcaption{
+  text-align: center;
+  padding: 5px;
+  font-style: italic;
+}
+
+
+article {
+  margin-top: 50px;
+  font-family: Lora;
+  line-height: 30px;
+  font-size: 20px;
+}
+a {
+  text-decoration: underline;
+  color: black;
+}
+a:hover {
+  color: blue;
 }
